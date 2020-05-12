@@ -1,0 +1,74 @@
+@font-face {
+  font-family: font_mathle;
+  src: url(/assets/spartan.ttf);
+}
+
+body {
+  position: relative;
+}
+
+.title {
+  text-align: center;
+}
+
+* {
+  font-family: font_mathle;
+}
+
+.mathle {
+  font-size: 40px;
+}
+
+.main {
+  margin-top: 12.5%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main > * {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minus {
+  background: crimson;
+  flex: 0 0 250px;
+}
+
+.plus {
+  background: olivedrab;
+  flex: 0 0 250px;
+}
+
+.multiplication {
+  background: blueviolet;
+  flex: 0 0 250px;
+}
+
+.division {
+  background: burlywood;
+  flex: 0 0 250px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+a {
+  cursor: pointer;
+  height: 250px;
+}
+
+.creator {
+  font-size: 20px;
+  margin-top: -2rem;
+}

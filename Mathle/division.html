@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mathle</title>
+    <link rel="stylesheet" href="Style/Division.css" />
+    <script type="text/javascript" src="./Logic/Division.js"></script>
+  </head>
+  <body>
+    <div class="divisionIntro">
+      <p class="title">
+        - Division -
+      </p>
+      <button class="back" onclick="goHome()">Back</button>
+    </div>
+    <div class="divisionMain">
+      <div class="calculation">
+        <p id="equation"></p>
+        <input
+          id="solution"
+          type="number"
+          onblur="checkEquation()"
+          onkeydown="makeFieldNormal()"
+        />
+      </div>
+    </div>
+    <div class="instruction">
+      <p class="click">Click anywhere!</p>
+    </div>
+  </body>
+</html>

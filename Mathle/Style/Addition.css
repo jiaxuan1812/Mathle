@@ -1,0 +1,77 @@
+@font-face {
+  font-family: font_mathle;
+  src: url(/assets/spartan.ttf);
+}
+
+* {
+  font-family: font_mathle;
+}
+
+body {
+  position: relative;
+}
+
+.additionIntro {
+  display: flex;
+}
+
+.title {
+  font-size: 40px;
+  order: 1;
+  margin: 0 auto;
+  margin-top: 3rem;
+  color: rgb(78, 110, 14);
+}
+
+button {
+  border-radius: 4px;
+  font-size: 25px;
+  cursor: pointer;
+  height: 50px;
+  position: absolute;
+  border: none;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+.additionMain {
+  text-align: center;
+}
+
+.calculation {
+  padding: 30vh 0;
+  display: flex;
+  justify-content: center;
+}
+
+#equation {
+  font-size: 50px;
+  color: rgb(78, 110, 14);
+}
+
+input {
+  width: 120px;
+  height: 70px;
+  margin-top: 5.5rem;
+  margin-left: 1rem;
+  font-size: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  color: rgb(78, 110, 14);
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:focus {
+  background-color: rgba(170, 221, 228, 0.432);
+}
+
+.instruction {
+  text-align: center;
+  margin-top: -15rem;
+  font-size: 20px;
+}
